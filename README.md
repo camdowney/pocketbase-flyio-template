@@ -21,13 +21,11 @@ Run ```flyctl volumes create pb_data --size=1``` and insert the following config
  Run ```flyctl deploy```
 
 ## Retrieving Backups
-```bash
-# Register ssh key if not done already
-flyctl ssh issue --agent
+### 1. Register an ssh key
+Run ```flyctl ssh issue --agent```
 
-# Proxy connection to Fly.io VM
-flyctl proxy 10022:22
+### 2. Proxy connection to Fly.io VM
+Run ```flyctl proxy 10022:22```
 
-# Run in separate terminal to copy data
-scp -r -P 10022 root@localhost:/pb/pb_data  /your/local/pb_data
-```
+### 3. Run in separate terminal to copy data
+Run ```scp -r -P 10022 root@localhost:/pb/pb_data  /your/local/pb_data```
