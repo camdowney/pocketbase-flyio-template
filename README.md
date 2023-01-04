@@ -28,4 +28,4 @@ Run ```flyctl ssh issue --agent```
 Run ```flyctl proxy 10022:22```
 
 ### 3. Copy data to local storage
-Run ```scp -r -P 10022 root@localhost:/pb/pb_data  /your/local/pb_data``` in a separate terminal
+Run in a separate terminal ```scp -r -P 10022 root@localhost:/pb/pb_data  /your/local/pb_data```
