@@ -1,5 +1,5 @@
 # PocketBase + Fly.io Template
-For hosting PocketBase instances on Fly.io (for free). Taken from https://github.com/pocketbase/pocketbase/discussions/537; this repo merely exists for brevity.
+For hosting PocketBase instances on Fly.io for free. Taken from https://github.com/pocketbase/pocketbase/discussions/537; this repo merely exists for brevity.
 
 ## Deploying
 1. Login: ```flyctl auth signup``` or ```flyctl auth login```
